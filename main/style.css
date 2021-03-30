@@ -1,8 +1,29 @@
 @import 'reset.css';
 
+#about {
+float: left;
+}
+
+#signin {
+    float: right;
+}
+
+
 #logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     size: 20em;
 }
+
+#search {
+    display: block;
+    margin: auto;
+}
+
+#sbuttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+

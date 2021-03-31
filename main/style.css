@@ -1,29 +1,50 @@
-@import 'reset.css';
+@import "reset.css";
 
 #about {
-float: left;
+  float: left;
 }
 
 #signin {
-    float: right;
+  float: right;
 }
 
-
 #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    size: 20em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 18em;
 }
 
 #search {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 #sbuttons {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
+footer {
+  display: block;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+}
+
+#advert {
+  float: left;
+}
+
+#priv {
+  float: right;
+}
+#clean {
+    display: inline-block;
+    height: 200px;
+}

@@ -1,11 +1,48 @@
 @import "reset.css";
 
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+header,
+body {
+  font-family: arial, sans-serif;
+}
+header {
+  margin-top: 0.7em;
+  font-size: 13px;
+  color: #5f6368;
+  word-spacing: 1em;
+  cursor: pointer;
+}
 #about {
   float: left;
+  position: relative;
+  top: 1em;
+  padding-left: 15px;
 }
 
 #signin {
   float: right;
+  position: relative;
+  top: 1em;
+}
+#sqr {
+  float: right;
+  width: auto;
+  height: 1.4em;
+  margin-top: 0.9em;
+  margin-right: 1.1em;
+  margin-left: 1.1em;
+}
+#penguin {
+  float: right;
+  border-radius: 50%;
+  margin-top: 0.3em;
+  margin-right: 1.1em;
+  width: 3em;
+  height: auto;
 }
 
 #logo {
@@ -14,37 +51,83 @@
   margin-right: auto;
   position: relative;
   max-width: 18em;
+  margin-bottom: 1em;
 }
 
 #search {
   display: block;
   margin: auto;
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  padding-left: 1em;
+  height: 2.9em;
+  width: 35em;
+  margin: 0 auto;
+}
+#search:hover {
+  box-shadow: 0px 0px 5px 1px grey;
 }
 
 #sbuttons {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 1em;
 }
 
+button {
+  margin: 0.5em;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  color: #5f6368;
+  padding: 0 1em;
+  height: 2.2em;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+button:hover {
+  box-shadow: 1px 1px 1px lightgrey;
+  border: 1px solid grey;
+}
 footer {
   display: block;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
+  color: #5f6368;
   position: absolute;
   bottom: 0px;
   width: 100%;
   height: 40px;
+  cursor: pointer;
 }
 
 #advert {
-  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 1em;
+  word-spacing: 1em;
+}
+#how_search_works {
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 1em;
 }
 
 #priv {
   float: right;
+  margin-top: 10px;
+  text-align: center;
+  word-spacing: 1em;
+  margin-right: 1em;
 }
 #clean {
-    display: inline-block;
-    height: 200px;
+  display: inline-block;
+  height: 200px;
 }

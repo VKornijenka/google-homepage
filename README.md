@@ -4,3 +4,8 @@ It's not going to be able to do anything, but I may try and introduce a separate
 Hopefully I hoping to align the divs properly and make it as similar to the homepage as I can.
 
 I will reflect back on this once I finish the project and see how I went.
+
+
+REFLECTION: 
+
+I have finished it! It was surprisingly difficult. I ran into several roadblocks due to minimal handholding. I realized that I didn't quite know the difference between "margin" and "top" elements. Borders and ":hover" commands proved quite daunting as well. I haven't made a sign in form as I decided to switch to an image instead of a sign in button. However, my stretch goal is to learn how to do a drop down menu upon clicking the little button with the squares. This should give a drop down list of different icons to click. But as of right now I am quite happy how it turned out. Looks very close to the Google homepage!
